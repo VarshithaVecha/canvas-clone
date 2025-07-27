@@ -1,0 +1,21 @@
+.calendar-container {
+  max-width: 360px;
+  width: 100%;
+}
+
+.react-calendar {
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.react-calendar__tile--now {
+  background: #3b82f6 !important;
+  color: white !important;
+  border-radius: 50% !important;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #2563eb !important;
+}
